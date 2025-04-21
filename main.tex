@@ -1,0 +1,43 @@
+\documentclass[12pt]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{natbib}        % for bibliography if using BibTeX
+\usepackage{setspace}
+\onehalfspacing
+
+% --- Title ---
+\title{Collaborative LaTeX Project}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+	
+	\maketitle
+	
+	\begin{abstract}
+		This document is an example of a collaborative LaTeX project using Git and TeXstudio.
+	\end{abstract}
+	
+	\section{Introduction}
+	\input{sections/intro.tex}
+	
+	\section{Methods}
+	\input{sections/methods.tex}
+	
+	\section{Results}
+	\input{sections/results.tex}
+	
+	\section{Conclusion}
+	This section wraps up the paper and discusses possible extensions.
+	
+	% --- Bibliography ---
+	\bibliographystyle{plain}
+	\bibliography{bibliography}
+	
+\end{document}
